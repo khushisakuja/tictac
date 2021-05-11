@@ -1,0 +1,104 @@
+/* CSS Code */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6954131994594712) 0%, rgba(0, 0, 0, 0.527345972568715) 53%, rgba(120, 120, 120, 0.6393907904958859) 100%), url(https://ak.picdn.net/shutterstock/videos/1013216561/thumb/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Heading */
+h1 {
+    color: #3fb6ec;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* 3*3 Grid */
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+input[type=text]:disabled {
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+/* Reset Button */
+#but {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid #3fb6ec;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: #3fb6ec;
+    color: #0e0e0e;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 2px;
+    transition: all 0.3s linear;
+}
+
+#but:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+    background-color: #14548c;
+    outline: none;
+    border: none;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: white;
+    font-size: 20px;
+}
+
+/* Main Contianer */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: white;
+    font-size: 17px;
+}
